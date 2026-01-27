@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+public class P_1 {
+    static void main(String[] args) {
+        int amount;
+        int notes;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter amount: ");
+        amount = sc.nextInt();
+
+        // 100 rupee notes
+        if (amount >= 100) {
+            notes = amount / 100;
+            amount = amount % 100;
+            System.out.println("100 : " + notes);
+        } else {
+            System.out.println("100 : 0");
+        }
+
+        // 50 rupee notes
+        if (amount >= 50) {
+            notes = amount / 50;
+            amount = amount % 50;
+            System.out.println("50 : " + notes);
+        } else {
+            System.out.println("50 : 0");
+        }
+
+        // 10 rupee notes
+        if (amount >= 10) {
+            notes = amount / 10;
+            amount = amount % 10;
+            System.out.println("10 : " + notes);
+        } else {
+            System.out.println("10 : 0");
+        }
+
+        // 5 rupee notes
+        if (amount >= 5) {
+            notes = amount / 5;
+            amount = amount % 5;
+            System.out.println("5 : " + notes);
+        } else {
+            System.out.println("5 : 0");
+        }
+
+        // 2 rupee notes
+        if (amount >= 2) {
+            notes = amount / 2;
+            amount = amount % 2;
+            System.out.println("2 : " + notes);
+        } else {
+            System.out.println("2 : 0");
+        }
+
+        // 1 rupee notes
+        if (amount >= 1) {
+            System.out.println("1 : " + amount);
+        } else {
+            System.out.println("1 : 0");
+        }
+
+
+    }
+}
+
