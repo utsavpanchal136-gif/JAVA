@@ -48,3 +48,11 @@ public class P_2 {
     }
 }
 
+
+output :- 
+    
+Enter a five-digit number: 45689
+New number: 56790
+
+Enter a five-digit number: 4568
+Invalid input! Please enter only a five-digit number.
