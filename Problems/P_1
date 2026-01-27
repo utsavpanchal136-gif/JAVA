@@ -66,3 +66,11 @@ public class P_1 {
     }
 }
 
+output :-
+Enter amount: 45698
+100 : 456
+50 : 1
+10 : 4
+5 : 1
+2 : 1
+1 : 1
