@@ -5,6 +5,8 @@ public class P_1 {
         int amount;
         int notes;
 
+        System.out.println("Enter only integer values");
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter amount: ");
