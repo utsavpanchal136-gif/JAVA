@@ -52,7 +52,8 @@ after sorting
 8
 12
 55
-Time=1897400n
+Time=1897400ns
 
     
+
 
