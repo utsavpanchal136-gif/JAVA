@@ -1,17 +1,16 @@
 import java.util.Scanner;
 
-
 public class P_2 {
-    static void main(String[] args) {
+
+    public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a five-digit number: ");
         int number = sc.nextInt();
 
-        // Check for 5-digit number
-        if (number < 10000 || number > 99999) {
-            System.out.println("Invalid input! Please enter only a five-digit number.");
-        } else {
+        // Check: number > 9999 and number < 100000
+        if (number > 9999 && number < 100000) {
 
             int d1, d2, d3, d4, d5;
             int newNumber;
@@ -42,11 +41,15 @@ public class P_2 {
             newNumber = d1 * 10000 + d2 * 1000 + d3 * 100 + d4 * 10 + d5;
 
             System.out.println("New number: " + newNumber);
+
+        } else {
+            System.out.println("Invalid input! Please enter only a five-digit number.");
         }
 
-
+        
     }
 }
+
 
 
 output :- 
@@ -56,3 +59,4 @@ New number: 56790
 
 Enter a five-digit number: 4568
 Invalid input! Please enter only a five-digit number.
+
