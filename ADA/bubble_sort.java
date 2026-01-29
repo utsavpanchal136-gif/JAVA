@@ -40,3 +40,19 @@ public class bubble_sort {
     }
 }
 
+Output :- 
+12 5 6 8 55 01
+5 12 6 8 55 
+5 6 12 8 55 
+5 6 8 12 55 
+5 6 8 12 55 
+after sorting
+5
+6
+8
+12
+55
+Time=1897400n
+
+    
+
