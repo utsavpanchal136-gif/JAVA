@@ -1,0 +1,13 @@
+package if_else;
+
+public class if_else_1 {
+    static void main(String[] args) {
+        int x = 5;
+        if(x>10){
+            System.out.println("x is grater than 10");
+        }
+        else {
+            System.out.println("x is not grater than 10");
+        }
+    }
+}
